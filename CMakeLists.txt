@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.29)
+project(WADER VERSION 1.0 LANGUAGES C)
+file(GLOB sources "src/*.c")
+add_library(WADER STATIC ${sources})
+target_include_directories(WADER PUBLIC "./include")
