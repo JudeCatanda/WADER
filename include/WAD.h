@@ -29,8 +29,6 @@ typedef struct WadFile {
     LumpDirEntry_t* Directory; // dynamically allocated for reader
 } WadFile_t;
 
-//DOXYGEN BY CHAT_GPT
-
 /**
  * @brief Creates a new WAD file for writing.
  * 
